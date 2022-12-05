@@ -268,13 +268,17 @@ header {
 
 /* Quality */
 
+.quality-container {
+    padding-top: 0px;
+}
+
 .quality__content {
     display: flex;
-    padding: 96px 32px;
+    padding: 135px 0px;
 }
 
 .quality__content--left {
-    width: 50%;
+    width: 48%;
     margin-right: 64px;
 }
 
@@ -304,7 +308,7 @@ header {
 }
 
 .quality__content--img-wrapper {
-    width: 50%;
+    width: 52%;
     display: flex;
 }
 
