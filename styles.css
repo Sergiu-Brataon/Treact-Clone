@@ -29,6 +29,16 @@ figure {
     margin: 0 auto;
 }
 
+.general-btn {
+    margin-top: 32px;
+    padding: 12px 32px;
+    background-color: rgb(100 21 255);
+    font-weight: 700;
+    border-radius: 9999px;
+    border: none;
+    color: white;
+}
+
 /* Nav */
 
 nav {
@@ -256,3 +266,49 @@ header {
     color: rgb(124 139 161);
 }
 
+/* Quality */
+
+.quality__content {
+    display: flex;
+    padding: 96px 32px;
+}
+
+.quality__content--left {
+    width: 50%;
+    margin-right: 64px;
+}
+
+.quality__content--title {
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    font-size: 16px;
+}
+
+.quality__content--sub-heading {
+    margin-top: 16px;
+    text-align: left;
+    font-weight: 900;
+    line-height: 1.25;
+    font-size: 3rem;
+    letter-spacing: 0.025em;
+    color: rgb(36 62 99);
+}
+
+.quality__content--para {
+    margin-top: 16px;
+    font-size: 18px;
+    color: #7C8BA1;
+    font-weight: 500;
+    line-height: 1.625;
+    text-align: left;
+}
+
+.quality__content--img-wrapper {
+    width: 50%;
+    display: flex;
+}
+
+.quality__content--img {
+    border: 1px solid rgb(226, 232, 240);
+    border-radius: 0.25rem;
+}
