@@ -7,6 +7,10 @@
     font-family: 'Inter', system-ui;
 }
 
+a {
+    text-decoration: none;
+}
+
 img {
     width: 100%;
 }
@@ -552,7 +556,7 @@ header {
 }
 
 .pricing__header--para {
-    margin-top: 36px;
+    margin-top: 16px;
     font-size: 18px;
     font-weight: 500;
     line-height: 1.625;
@@ -560,4 +564,154 @@ header {
     text-align: center;
     width: 100%;
     max-width: 36rem;
+}
+
+.pricing__plans {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pricing__plan {
+    width: calc(100% / 3);
+    position: relative;
+    padding: 8px 32px 0 32px;
+    margin: 64px 32px 0 0;
+    border: 0.5px solid rgb(238, 237, 237);
+    border-radius: 10px;
+    border-top: none;
+}
+
+.pricing__plan--styling-one {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    height: 0.5rem;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
+}
+
+.pricing__plan--header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px;
+}
+.pricing-name {
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 1.625;
+}
+
+.pricing-price {
+    margin: 4px 0;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.pricing-duration {
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    font-size: 16px;
+    color: #A0AEC0;
+}
+
+.pricing__plan--features {
+    padding: 32px;
+    margin: 0 -32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+    border: 2px solid rgb(238, 237, 237);
+    border-right: none;
+    border-left: none;
+}
+
+.pricing-feature {
+    margin-top: 20px;
+    font-weight: 500;
+    color: #718096;
+}
+
+.main-feature {
+    margin-top: 0;
+    color: #1A202C;
+    font-weight: 700;
+}
+
+.pricing__plan--action {
+    padding: 32px 64px;
+}
+
+.action-btn {
+    background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
+    border-radius: 9999px;
+    padding: 16px 32px;
+    font-size: 14px;
+    font-weight: 700;
+    border: none;
+    width: 100%;
+}
+
+.ppab-one {
+    color: #F7FAFE;
+}
+
+.pbs {
+    color: #F7FAF7;
+}
+
+.pricing__plan-blue {
+    position: relative;
+    margin: 64px 32px 0 0;
+    width: calc(100%/3);
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 0.5rem;
+    text-align: center;
+    --tw-shadow: 0 1px 3px 0 rgba(0,0,0,0.1),0 1px 2px 0 rgba(0,0,0,0.06);
+    --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color),0 1px 2px 0 var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow);
+    background-image: linear-gradient(135deg, rgb(76, 81, 191) 0%, rgb(102, 126, 234) 100%);
+    background-color: rgb(100 21 255);
+}
+
+.pricing__plan--styling-two {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    height: 0.5rem;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    background: #6415FF;
+}
+
+.ppab-two {
+    color: #6415FF;
+}
+
+.ab-two {
+    background: #F7FAFE;
+}
+
+.pricing__plan--styling-three {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    height: 0.5rem;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
+}
+
+.ab-three {
+    background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
 }
