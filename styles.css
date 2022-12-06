@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&family=Lato:wght@400;700&family=League+Spartan:wght@400;500;700&family=Roboto:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&family=Lato:wght@400;700&family=League+Spartan:wght@400;500;700&family=Roboto:wght@300;400;500;700&display=swap');
 
 * {
     margin: 0;
@@ -27,6 +27,10 @@ figure {
     width: 100%;
     max-width: 1280px;
     margin: 0 auto;
+}
+
+li {
+    list-style-type: none;
 }
 
 .general-btn {
@@ -115,6 +119,7 @@ header {
 
 .landing-row {
     display: flex;
+    align-items: center;
 }
 
 .landing__content {
@@ -158,6 +163,11 @@ header {
     width: 58%;
     display: flex;
     align-items: center;
+}
+
+.landing__img {
+    min-width: 0px;
+    height: auto;
 }
 
 .landing__content--trusted {
@@ -274,12 +284,18 @@ header {
 
 .quality__content {
     display: flex;
-    padding: 135px 0px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 32px 0px;
+}
+
+.quality__content--left-wrapper {
+    margin-right: 64px;
+    width: 48%;
 }
 
 .quality__content--left {
-    width: 48%;
-    margin-right: 64px;
+    padding: 32px 0;
 }
 
 .quality__content--title {
@@ -316,3 +332,78 @@ header {
     border: 1px solid rgb(226, 232, 240);
     border-radius: 0.25rem;
 }
+
+/* Start */
+
+.start-container {
+    padding-top: 62px;
+}
+
+.start__content {
+    display: flex;
+    align-items: center;
+}
+
+.start__content--wrapper {
+    margin-left: 64px;
+    flex-shrink: 0;
+    width: 45%;
+}
+
+.start__content--right {
+    padding: 32px 0;
+}
+
+.start__content--title {
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+}
+
+.start__content--sub-heading {
+    margin-top: 16px;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 1.25;
+    text-align: left;
+    letter-spacing: 0.025em;
+    color: #243E63;
+}
+
+.steps__container {
+    margin-top: 48px;
+}
+
+.step {
+    margin-top: 32px;
+    display: flex;
+}
+
+.step__num {
+    font-size: 2.25rem;
+    font-weight: 600;
+    line-height: 1;
+    color: #CBD5E0;
+}
+
+.step__text {
+    margin-left: 24px;
+}
+
+.step__text--title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 1;
+    color: #243E63;
+}
+
+.step__text--info {
+    margin-top: 12px;
+    max-width: 20rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+    line-height: 2;
+    color: #718096;
+}
+
+/* Values */
