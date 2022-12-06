@@ -34,13 +34,20 @@ li {
 }
 
 .general-btn {
-    margin-top: 32px;
     padding: 12px 32px;
     background-color: rgb(100 21 255);
     font-weight: 700;
     border-radius: 9999px;
     border: none;
+}
+
+.general-anch {
     color: white;
+    text-decoration: none;
+}
+
+.not-allowed {
+    cursor: not-allowed;
 }
 
 /* Nav */
@@ -323,6 +330,10 @@ header {
     text-align: left;
 }
 
+.quality-btn {
+    margin-top: 32px;
+}
+
 .quality__content--img-wrapper {
     width: 52%;
     display: flex;
@@ -414,19 +425,20 @@ header {
 }
 
 .values__content--wrapper {
-    margin-left: 64px;
+    display: flex;
     flex-shrink: 0;
     width: 45%;
 }
 
 .values__content--left {
-    padding: 32px 0;
+    width: 100%;
 }
 
 .values__content--title {
     font-size: 16px;
     font-weight: 700;
     letter-spacing: 0.1em;
+    color: #6415FF;
 }
 
 .values__content--sub-heading {
@@ -474,6 +486,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: #9AE6B4;
 }
 
 
@@ -483,5 +496,68 @@ header {
 }
 
 .ctiw-two {
-    border-color: #FEB2B2;
+    border-color: #f3c8c8;
+    background-color: #f3c8c8;
+}
+
+.comp__top--text {
+    display: flex;
+    align-items: center;
+    margin-left: 12px;
+    color: #243E63;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.comp__bottom {
+    margin-top: 16px;
+}
+
+.comp__bottom--text {
+    color: #718096;
+    line-height: 1.625;
+    font-size: 16px;
+}
+
+.values-btn {
+    margin-top: 48px;
+}
+
+/* Pricing */
+
+.pricing__header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pricing__header--title {
+    text-align: center;
+    margin-bottom: 16px;
+    font-size: 16px;
+    color: #6415FF;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+}
+
+.pricing__header--sub-title {
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 1.25;
+    letter-spacing: 0.025em;
+    color: #243E63;
+    text-align: center;
+    width: 100%;
+}
+
+.pricing__header--para {
+    margin-top: 36px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.625;
+    color: #7C8BA1;
+    text-align: center;
+    width: 100%;
+    max-width: 36rem;
 }
