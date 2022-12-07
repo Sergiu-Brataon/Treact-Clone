@@ -804,3 +804,62 @@ header {
     color: #7C8BA1;
     font-size: 16px;
 }
+
+/* Call To Action */
+
+.cta__content--wrapper {
+    height: 280px;
+}
+
+.cta__content {
+    background-color: rgb(100 21 255);
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 0 32px;
+}
+
+.cta__content--text-wrapper {
+    max-width: 40%;
+    margin-right: 100px;
+}
+
+.cta__content--text {
+    font-weight: 700;
+    color: rgb(247 250 252);
+    font-size: 30px;
+    width: 100%;
+    line-height: 1.5;
+}
+
+.cta__content--buttons {
+    max-width: 32rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cta-btn {
+    background-color: rgb(245 101 101);
+    border-radius: 9999px;
+    border: 1px solid rgb(245 101 101);
+    padding: 20px 40px;
+    margin-right: 32px;
+    height: 70px;
+}
+
+.cta-btn-two {
+    margin: 0;
+    background-color: rgb(100 21 255);
+    border-color: #F7FAFC;
+}
+
+.cta-anch {
+    font-weight: 700;
+    letter-spacing: 0,025em;
+    color: #F7FAFC;
+    font-size: 16px;
+}
