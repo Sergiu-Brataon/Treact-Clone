@@ -31,12 +31,40 @@
                     </li>
                 </ul>
             </div>
+            <button class="btn__menu" onclick="openMenu()">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="menu__backdrop">
+                <button class="btn__menu btn__menu--close" onclick="closeMenu()">
+                    <i class="fas fa-times"></i>
+                </button>
+                <ul class="menu__links">
+                    <li class="menu__list">
+                        <a class="menu__link" href="#" onclick="closeMenu()">About</a>
+                    </li>
+                    <li class="menu__list">
+                        <a class="menu__link not-allowed" href="#" onclick="closeMenu()">Blog</a>
+                    </li>
+                    <li class="menu__list">
+                        <a class="menu__link not-allowed" onclick="closeMenu()">Pricing</a>
+                    </li>
+                    <li class="menu__list">
+                        <a class="menu__link not-allowed" onclick="closeMenu()">Contact Us</a>
+                    </li>
+                    <li class="menu__list">
+                        <a class="menu__link not-allowed" onclick="closeMenu()">Login</a>
+                    </li>
+                    <li class="menu__list">
+                        <button class="general-btn btn-white-text not-allowed">Sign Up</button>
+                    </li>
+                </ul>
+            </div>
         </nav>
         <header>
             <div class="container">
                 <div class="row landing-row">
                     <div class="landing__content">
-                        <h1 class="landing__content--heading">Beautiful React <br> Templates <span
+                        <h1 class="landing__content--heading">Beautiful React Templates <span
                                 class="purple-word">for you.</span></h1>
                         <p class="landing__content--text">Our templates are easy to setup, understand and customize.
                             Full modular components with a variety of pages and components</p>
@@ -392,7 +420,7 @@
         <div class="footer__container">
             <div class="footer__container--reuse">
                 <div class="footer__container--inner">
-                    <div class="footer__links">
+                    <div class="footer__content--container">
                         <h5 class="footer__content--title">MAIN</h5>
                         <ul class="footer__content--list">
                             <li class="footer__content--item not-allowed">Blog</li>
