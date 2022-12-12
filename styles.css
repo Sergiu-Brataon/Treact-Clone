@@ -1237,6 +1237,10 @@ footer {
         justify-content: center;
     }
 
+    .comp__bottom--text {
+        text-align: center;
+    }
+
     .values__content--left {
         display: flex;
         flex-direction: column;
