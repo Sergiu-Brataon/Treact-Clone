@@ -1146,6 +1146,11 @@ footer {
 @media (max-width: 576px) {
     .features__content--sub-heading {
         text-align: center;
+        font-size: 30px;
+    }
+    
+    .landing__content--heading {
+        text-align: center;
     }
 
     .card {
